@@ -1,0 +1,13 @@
+# AppFutbol
+
+Aplicación web de fútbol desarrollada con Java, Spring Boot, MySQL y HTML/CSS.
+
+## Estructura
+- `Data_Base/` — esquema SQL de la base de datos
+- `backend/` — proyecto Java con Spring Boot
+- `frontend/` — vistas HTML/CSS
+
+## Tecnologías
+- Java + Spring Boot
+- MySQL
+- HTML + CSS
