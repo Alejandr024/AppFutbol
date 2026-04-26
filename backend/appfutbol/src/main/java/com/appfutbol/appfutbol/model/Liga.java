@@ -8,11 +8,20 @@ public class Liga {
 
     @Id // marca el campo como PK
     @GeneratedValue(strategy = GenerationType.IDENTITY) // el Id se genera automaticamente
+    
+     @Column(name = "idLiga")
     private int idLiga;
 
+    @Column(name = "nombre")
     private String nombre;
+
+    @Column(name = "pais")
     private String pais;
+
+    @Column(name = "temporada")
     private String temporada;
+
+    @Column(name = "logo_url")
     private String logoUrl;
 
     // Getters y Setters
